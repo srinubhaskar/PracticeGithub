@@ -1,0 +1,31 @@
+git clone exmple.com
+for downloading main file/all the contents of repository by link
+git config --global user.name "your name"
+for configuring username
+git config --global user.eamil "your mail"
+for configuring email
+git ls
+look in to files in the present directory
+git cd
+for changing directory
+vim example.txt
+for editing text in the text file, insert ofr editing, esc and then :X for saving and quiting/ :q for quiting directly
+git add example.txt 
+it will add what ever changeds you did in  the file
+git commit 
+it will commit the chnages what ever you make
+git commit -help
+it will show waht ever command we have with commit (try it you will know what and all command we have)
+git commit -m "message"
+ipt will commit by showing what ever message you give
+git log
+to what and all changes happened
+git status
+to know the status of the your brach, whether it is in the proper path or not, it should be ahead of 'origin/master' if it says nothing to commit then you are in the right place 
+git remote add origin
+to add the origin what ever you want to uploading or pushing to. you have to provide url
+git push -u origin master
+this is for saving whst ever files you want save, its kind of pushng everything to origin
+add, commit, push
+these are three steps for adding commiting and push into the origin repository
+ 
